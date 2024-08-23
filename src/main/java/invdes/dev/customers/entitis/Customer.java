@@ -10,9 +10,10 @@ import java.util.Objects;
 @EqualsAndHashCode @ToString*/
 //o  se puede minizar la informacion con la anotacion Data ocupando el patron de diseño builder
 
-@Data @Builder
+@Data
 public class Customer {
 
+    private Integer id;
     private String firstname;
     private String lastname;
     private String email;
